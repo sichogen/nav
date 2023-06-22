@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.tophead {
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    margin: 5px auto;
+    background-color: gray;
+}
+[class*="col-"]{
+    float: left;
+}
+.navbar{
+    background-color: gray;
+    height: 85px;
+}
+.navbar::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.logo{
+    box-sizing: border-box;
+}
+.logo img{
+    padding: 0 20px
+}
+.link{
+    box-sizing: border-box;
+    padding-left: 20px;
+    height: 80px;
+    margin-top: 0;
+}
+
+.link ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link li{
+    float: left;
+}
+
+.link li a {
+    box-sizing: border-box;
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #000046;
+    font-weight: 500;
+    border: 1px none lightblue;
+    margin: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    body {
+      background-color: lightblue;
+    }
+    .navbar{
+        width: 100%;
+        float: left;
+    }
+    .logo{
+        width: 65%;
+
+    }
+    .link{
+        width: 30%;
+        height: 180px;
+        display: block;
+        background-color: aqua;
+        box-sizing: border-box;
+        margin-left: 5px;
+    }
+    .link ul{
+        margin: 0;
+        padding-left: 20px;
+        border: none;
+        display: block;
+     
+    }
+    .link li{
+        display: block;
+        border: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .link ul a{
+        display: block;
+        font-size: 14px;
+        padding: 0 10px;
+
+    }
+  }
+  @media only screen and (max-width: 930px){
+    .navbar{
+        background-color: rgb(83, 34, 34);
+        height: 85px;
+    }
+    .navbar::after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .logo{
+        box-sizing: border-box;
+    }
+    .logo img{
+        padding: 0 20px
+    }
+    .link{
+        box-sizing: border-box;
+        padding-left: 5px;
+        height: 80px;
+        margin-top: 0;
+    }
+
+    .link ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .link li{
+        float: left;
+    }
+
+    .link li a {
+        box-sizing: border-box;
+        display: block;
+        padding: 15px 5px;
+        text-decoration: none;
+        font-size: 24px;
+        color: #000046;
+        font-weight: 500;
+        border: 1px none lightblue;
+        margin: 10px;
+    }
+}

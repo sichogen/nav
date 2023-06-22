@@ -1,0 +1,213 @@
+
+*{
+    margin: 0;
+    overflow-x: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    height: 100vh;
+}
+.nav{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font: 13px/27px Roboto,Arial,sans-serif;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.toggle{
+    font-weight: 100;
+    color : black;
+    line-height: 30px;
+    margin-left : 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.icon{
+    font-weight: 100;
+    line-height: 30px;
+    margin-left : 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.icon-pic{
+    border-radius: 50%;
+    border: 1px black solid;
+    background-color: brown;
+}
+
+.main-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+    width: 500px;
+    height: 50px;
+    border: 1px solid #a9aeb3;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+.form > i {
+    font-size: 20px;
+    color:#a9aeb3;
+}
+.form > input {
+    width: 450px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-left: 10px;
+    background-color: transparent;
+}
+
+.bt{
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+}
+.bt-a{
+    border: 5px solid #f8f9fa;
+    background-color: #f8f9fa;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin: 0 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.a:hover, .b:hover{
+    border: 1px solid #a9aeb3;
+    transition: 0.4s;
+}
+.footer{
+    display: flex;  
+}
+
+.level3{
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    font-family: arial,sans-serif;
+    font-size: small;
+}
+.level3 a{
+    text-decoration: none;
+    word-spacing: 8px;
+}
+.last, .footsmiddle{
+    position: relative;
+    background-color: #f2f2f2;
+    color: #70757a;
+    margin-bottom: 0;
+    font-family: arial,sans-serif;
+}
+
+.last p{
+    padding: 15px 0 15px 40px;
+}
+
+.footsmiddle p{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    
+}
+
+.footsmiddle{
+    border-top: 1px solid #70757a;
+}
+.footer{
+    background-color:#f2f2f2 ;
+    margin-top: 0;
+    height: 40px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 0;
+
+}
+
+.first, .lass{
+    color: #70757a;
+    word-spacing: 8px;
+    margin-left: 10px;
+}
+.lass{
+    float: right;
+}
+
+.footer a{
+    text-decoration: none;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    color: #70757a;
+    font-family: arial,sans-serif;
+}
+
+.bottom{
+    margin-top: 190px;
+    color: #70757a;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+@media (max-width: 360px){
+    .body{
+        overflow-x: none;
+        overflow-y: none;
+    }
+    .nav{
+        float: right;
+    }
+    .main-icon{
+        margin: 40px 20px;
+    }
+    .box{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 90%;
+        box-sizing: border-box;
+    }
+    .first, .lass{
+        font-size: 6px;
+        display: flex;
+    }
+}
+

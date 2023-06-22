@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(/images/key1.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.navbar {
+    width: 1350px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+/*.logo {
+    color: tomato;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}*/
+
+.logo{
+    box-sizing: border-box;
+    width: 90px;
+    height: 65px;
+}
+
+.menu {
+    width: 700px;
+    float: left;
+    height: 70px;
+}
+
+.menu ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 18px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.6s ease-in-out;
+}
+
+.menu li a:hover{
+    color: tomato;
+}
+
+.search{
+    width: 300px;
+    float: left;
+    margin-left: 100px;
+}
+
+.ser{
+    font-family: Times 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid tomato;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: tomato;
+    border: 1px solid tomato;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+ .btn:focus{
+    outline: none;
+ }
+ .ser:focus{
+    outline: none;
+ }
+
+ .content{
+    width: 1300px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    margin-top: 60px;
+ }
+
+ .content .txt{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 40px;
+    margin-top: 20px;
+ }
+
+ .content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+ }
+
+ .content .btnn{
+    width: 160px;
+    height: 40px;
+    background-color: tomato;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer; 
+ }
+
+ .content .btnn a{
+    text-decoration: none;
+    color:#000;
+    transition: 0.3s ease-in-out;
+}
+
+.content .btnn:hover{
+    background-color: white;
+
+}
+
+.content span{
+    color: tomato;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 10px;
+    left: 950px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #fff;
+    color:tomato;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    margin: 30px 0 0;
+    color: #fff;
+    border-top: none;
+    border-bottom: 1px solid tomato;
+    border-left: none;
+    border-right: none;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn2{
+    width: 240px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: tomato;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.btnn2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.btnn2:hover{
+    background: #fff;
+    color: tomato;
+}
+
+.btnn2 a:hover{
+    color: tomato;
+    font-family: Arial;
+}
+
+.form .link{
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form .link a{
+    color: tomato;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.icon{
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+.icon a{
+    padding-left: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+.icon a:hover{
+    color: tomato;
+}
+

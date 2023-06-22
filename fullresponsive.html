@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVIGATION RESPONSIVE BAR</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.3/css/all.min.css" integrity="sha512-f2MWjotY+JCWDlE0+QAshlykvZUtIm35A6RHwfYZPdxKgLJpL8B+VVxjpHJwZDsZaWdyHVhlIHoblFYGkmrbhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="sidebar">
+        <ul>
+            <li><a class="ion-social-wordpress" href="#"></a></li>
+            <li><a class="ion-android-image" href="#"></a></li>
+            <li><a class="ion-android-download" href="#"></a></li>
+            <li><a class="ion-stats-bars" href="#"></a></li>
+            <li><a class="ion-chatbox-working" href="#"></a></li>
+            <li><a class="ion-cash" href="#"></a></li>
+        </ul>
+    </div>
+    <a class="btn"></a>
+    <div class="section">
+        <div class="box1">
+            <a href="index2.html">SALARY</a>
+        </div>
+        <div class="box1 mid">
+            <a href="index2.html">BUDGET</a>
+        </div>
+        <div class="box1 last">
+            <a href="index2.html">TAX</a>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $('.btn').on("click", function(){
+            $('.btn').toggleClass('btnc'); 
+            $('.sidebar').toggleClass('side');
+        });
+
+    </script>
+</body>
+</html>
