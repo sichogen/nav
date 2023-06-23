@@ -12,9 +12,9 @@ p{
 
 /* LOGO */
 .logo{
-    z-index: 20;
+    z-index: 1;
     position: fixed;
-    margin: 4px;
+    margin: 4px 20px;
 }
 
 .logo img{
@@ -166,18 +166,17 @@ footer{
  @media(max-width: 900px){
   header h1{
     font-size: 72px;
+    text-align: center;
   }
   nav {
     display: flex;
     height: 100vh;
     transform: scaleY(0) translateY(1200);
-    background: rgba(255, 255, 255, 0.8);
+  
     transition: .4s;
   }
 
-   nav .active{
-    transform:scaleY(1) translateY(0px);
-   }
+
   nav ul {
     margin: 0 auto;
     align-items: center;
@@ -213,6 +212,7 @@ footer{
     font-size: 24px;
     height: auto;
     text-align: center;
+    margin: 10px 10px;
   }
   section {
     flex-direction: column;
@@ -244,5 +244,69 @@ footer{
    .menu-btn .active {
     transform: rotate(45deg);
    }
+
+   section h3{
+    font-family: "Raleway";
+    font-size: 26px; 
+    padding: 16px 0;
  }
+ section:nth-child(2n){
+     flex-direction:column;
+     background: #0f141a;
+     color: #fff;
+ }
+
+ section p{
+     font-family: 'roboto Slab';
+     height: 500px;
+     background-color: transparent;
+ }
+
+ section .description, section .image{
+     flex-direction: column;
+     flex: 1;
+     padding: 12px;
+     justify-content: center;
+     overflow: hidden;
+     width: 90%;
+     margin: 10px auto;
+ }
+
+ section .image{
+  height: 160px;
+  width: 360px;
+ }
+ .section-follow{
+  height: 120px;
+  align-items: center;
+}
+
+.section-follow .social-media{
+  padding: 0 80px;
+  font-size: 30px;
+  
+}
+
+.section-follow .social-media i{
+  padding: 5px 8px;
+  transition: 0.4s;
+  cursor: pointer;
+
+}
+.social-media i:hover{
+  transform: scale(1.3);
+}
+}
+.section-follow .follow-me:after{
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 15nm0px;
+  height: 44px;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+}
+
+}
  
